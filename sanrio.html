@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanrio Character Profile Generator</title>
+
+    <!-- Google Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+     <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <div class = "container">
+        <div id="welcome">
+            <h2>Welcome to</h2>
+            <h2>Sanrio Character Generator!</h2>
+
+            <img src = "./photos/sanrio.png"/>
+
+            <p>Click on the button below to generate yourself a random Sanrio character.</p>
+            <p>You can click the button as many times as you please...</p>
+            <p>I wonder what you will get :P</p>
+            <p><span class="have-fun">Have fun!</span></p>
+        </div>
+
+
+        <div id = "card" style="display: none;"> 
+            <h3 class = "top-yougot">You got...</h3>
+            <img src = "./photos/pompompurin.webp"/>
+            <h2 class = "sanrio-name">Pompompurin</h2>
+
+            <p class = "likes"><span class = "bold">Likes:</span> Pudding, napping, and soft stuff</p>
+            <p class = "dislikes"><span class = "bold">Dislikes:</span> The word ‘stay’</p>
+
+            <p class = "description">Born on a sunny day on April 16th, Purin is a Golden Retriever dog who loves to make others happy. Known for his iconic brown beret, Purin is often seen sleeping or hanging out with his friends!</p>
+
+        </div>
+        
+        <button id = "new-character-button"> Generate New Character </button>
+    
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
